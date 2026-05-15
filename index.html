@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Weather Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Async Weather Tracker</h1>
+
+    <div id="search-box">
+        <div id="first-search">
+            <h3>Search city</h3>
+            <form>
+                <input type="text" id="search-city" placeholder="Delhi, Mumbai etc...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <div id="search-history">
+            <h3>Search History</h3>
+            <div id="searched-cities-box"></div>
+        </div>
+    </div>
+
+    <div id="weather-info-box">
+        <h3>Weather Info</h3>
+        <div id="fetched-data-box"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
